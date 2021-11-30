@@ -34,6 +34,13 @@ form1.addEventListener("submit", function(event){
 });
 
 function example (){
-
 	return[] 
 } 
+function change(n,r){
+	if (r== 'si') {
+		document.getElementById(n).style.background="#549EE3"
+	} 
+	else {
+		document.getElementById(n).style.background=""
+	}
+}
