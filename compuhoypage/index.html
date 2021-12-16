@@ -10,10 +10,10 @@
     
     <title>ComputerHoy</title>
 </head>
-<body>
-	<div class="container">
+<header>
+	<div id="menu" class="container">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand text-white" href="#">
+			<a class="navbar-brand text-white" href="#header">
 				<img src="img/logo.png" height="90px">
 			</a>
 			<button class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
@@ -22,15 +22,15 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a href="#" class="nav-link">LO ÚLTIMO</a>
+						<a href="#latest" class="nav-link">LO ÚLTIMO</a>
+					</li>
+					<li class="nav-item active">
+						<a href="#entertainment" class="nav-link">ENTRETENIMIENTO</a>
 					</li>
 					<li class="nav-item active">
 						<a href="#" class="nav-link">TECNOLOGÍA</a>
 					</li>
 					<li class="nav-item active">
-						<a href="#" class="nav-link">PREGUNTAS FRECUENTES</a>
-					</li>
-						<li class="nav-item active">
 						<a href="#" class="nav-link">GAMING</a>
 					</li>
 						<li class="nav-item active">
@@ -38,7 +38,7 @@
 					</li>
 					</li>
 						<li class="nav-item active">
-						<a href="#" class="nav-link">MOTOR</a>
+						<a href="#form-1" class="nav-link">SUSCRIBETE</a>
 					</li>
 					</li>
 						<li class="nav-item active">
@@ -47,7 +47,7 @@
 					</li>
 						<li class="nav-item active">
 						<a href="#" class="nav-link">NEWSLETTER
-</a>
+						</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"  href="#" aria-haspopup="true" aria-expanded="false">
@@ -66,17 +66,10 @@
 			</div>
 		</nav>
 	</div>
-
-	<!--<header>
-		<ul>
-			<li><a href="#section1">World Wide Web</a></li>
-			<li><a href="#section2">Historia</a></li>
-			<li><a href="#section3">Section 3</a></li>
-			<li><a href="#section4">Funciones de la Web</a></li>
-		</ul>
-	</header>
--->
-	<div id="section1" class="content">
+</header>
+<body>
+<div id="newspaper" class="sectioncontents">
+	<div id="section1" class="content" onmouseover=change('section1','si') onmouseout= change('section1','')>
 		<h2 class="title"> Las 5 mejores páginas web de juegos y minijuegos online</h2>
 		<img src="img/minijuegosonline.jpg">
 		<p>Los minijuegos podrían definirse como todo aquel juego que se juega mediante un navegador web (Internet Explorer, Mozilla Firefox, Opera, Google Chrome, Safari...) y que han ido creciendo a la par que lo hacía la Web.
@@ -129,7 +122,37 @@
 
 		En el sito web puedes configurar tu propia colección con tus juegos favoritos. Para añadir un juego a la lista de juegos preferidos, haz clic sobre el icono del corazón que aparece debajo de cada contenido y crea tu lista de hasta 10 juegos. En cualquier momento podrás elegir y modificar los juegos almacenados en ella.</p>
 	</div>
-	<form id="form-1">
+	<div id="latest" class="content">
+		<h2>
+		<i>Lo Último</i>
+		<img src="img/twitterNoticia.png">
+		</h2>
+		<p>Jack Dorsey abanoda Twitter y la red social cambia de políticas de privacidad para mejorar la experiencia que tienen los usuarios dentro de la aplicación.
+
+		Twitter está cambiando sus políticas, en los últimos meses ha hecho una serie de cambios destinados a mejorar la manera en la que los usuarios utilizan la red social. El último cambio llega justo un día después de que el puesto de CEO de la compañía cambiase de manos. Y, es que, la noticia más sonada en la red social fue que Jack Dorsey abandonaba su puesto,
+
+		El sustituto es Parag Agrawal y, ahora, todas las quejas acerca de la red social tendrán que ir dirigidas hacia esta persona. Puede que esta medida llegue directamente de su mano, pero esto sería poco probable. Lo que ha hecho Twitter en la nueva actualización de sus políticas es que se controlen los contenidos que se publican.</p>
+		<p>Esta medida de control no tiene absolutamente nada que ver con la censura, de hecho, lo que se quiere es que los usuarios tengan una mayor seguridad o estén más seguros de lo que hace la aplicación. Esta medida se centra en la privacidad, poniendo el foco en lo que se comparte dentro de la red social.
+		Lo que quiere Twitter es que los usuarios sean capaces de denunciar fotografías o vídeos los cuales atenten contra su privacidad. Esto hace que si, por ejemplo, algún usuario publica una fotografía de tu dirección, rostro o algo que tenga con ver contigo; tú, como usuario, seas capaz de avisar a Twitter de que esta fotografía atenta contra la privacidad.
+		La llegada de esta nueva característica es algo que muchos usuarios llevan esperando, pero lo más seguro es que una parte del público se tome esto como una medida de control en lugar de algo favorecedor para determinados perfiles de usuarios. Habrá que esperar para conocer la acogida que tiene esta nueva política y, sobre todo la manera en la que funciona.</p>
+	</div>
+	<div id="entertainment" class="content">
+		<h2>
+		<i>Las 30 mejores películas de terror o de miedo de la historia</i>
+		<img src="img/movies.png">
+		</h2>
+		<p>Si disfrutas de un buen largometraje de miedo, en esta lista hemos reunido las 25 mejores películas de terror de la historia que puedes ver ahora mismo, tanto clásicas como modernas.
+		No es habitual que comencemos nuestras listas pidiendo perdón, pero como aficionados, entusiastas y fanáticos de las películas de terror, consideramos que en esta ocasión estamos obligados a hacerlo.
+		Si por nosotros fuera, esta lista habría alcanzado los 50 títulos , pero por cuestión de tiempo y respeto a vuestro tiempo libre, nos vemos condenados a reducirla a 30 escasas películas.
+		El género de terror siempre ha sido uno de los más maltratados por la prensa especializada y se ha argumentado que es un género dedicado a un público juvenil con bajas exigencias y fácil de entretener. Sin embargo, existe un reducido conjunto de cintas que, caprichos del destino, consiguieron contentar tanto a crítica como a público.</p>
+		<p>Muchas de estas cintas están presentes en esta lista con las 30 mejores películas de terror de la historia, en la que encontrarás tanto títulos clásicos como largometrajes estrenados en la última década.
+		Si echas de menos alguna película o, por el contrario, crees que merecemos ser atacados por cenobitas por la presencia de alguna cinta que no es de tu agrado en este recopilatorio de las mejores películas de miedo de la historia, lo sentimos mucho.</p>
+		<img src="img/rec.png">
+		<p>El argumento de [REC] nos pone en la piel de Ángela Vidal, una joven reportera de una televisión local a quien le toca entrevistar a un grupo de bomberos que, a lo largo de la noche acuden un edificio de La Rambla de Barcelona en auxilio de una anciana.
+		Esto sólo es el comienzo de una larga pesadilla, tras descubrir que un peligroso virus que convierte al huésped en un animal sediento de sangre se ha expandido por el edificio.
+		Grabado con el formato de "falso documental" y siempre con la cámara al hombro, muchos critican que la cinta es un constante mareo, pero sus largos planos secuencia y, sobre todo, la tan conseguida sensación de estar en un auténtico pasaje del terror, convierten a [REC]  (y en mayor o menor medida sus secuelas) en la mejor película de terror española.</p>
+	</div>
+	<!--<form id="form-1">
 		<h4>SUSCRÍBETE</h4>
 		<div class="row g-2">
 			<div class="col-sm-6">
@@ -177,10 +200,30 @@
 				<input type="submit" name="submit">
 			</div>
 		</div>
-	</form>	
+	</form>	-->
+	<section class="container my-5">
+        <form action="" name="form1" id="form1">
+            <div class=" p-3">
+                <label for="name" class="form-lable">Nombres:</label>
+                <input type="text" name="name" id="nameUser" class="form-control">
+
+                <label for="lastname" class="form-lable">Apellidos:</label>
+                <input type="text" name="lastname" id="lastname" class="form-control">
+
+                <label for="pass" class="form-lable">Contraseña:</label>
+                <input type="password" name="pass" id="pass" class="form-control">
+
+                <label for="born" class="form-lable">Fecha:</label>
+                <input type="date" name="born" id="born" class="form-control">
+
+            </div>
+            <button type="submit" class="btn btn-success my-3 btn-sub">Enviar</button>
+        </form>
+    </section>
 	<div id="content">
 		
 	</div>
+</div>
 </body>
 <footer>
 	<div class="container-fluid bg-light text-center p-3">
@@ -325,5 +368,6 @@
   <!-- Copyright -->
 </footer>
 <!-- Footer -->	
+<script type="text/javascript" src="stack.js"></script>
 <script type="text/javascript" src="script.js"></script>
 </html>
